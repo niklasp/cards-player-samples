@@ -11,15 +11,18 @@
   <title>video player</title>
   <style type="text/css">
     video {
-      width: auto;
-      height: 100%;
+      width: 600px;
+      height: 600px;
+      object-fit: contain;
     }
   </style>
 
-  <video controls>
-    <source src="https://kodadot.mypinata.cloud/ipfs/bafybeifvmbjzgoxexwi2rxqsqnvecbxraowgpt2bzoj3ijnl3iye4xqlla" type="video/mp4">
-    Your browser does not support video
-  </video>
+  <div class="video-wrap">
+    <video controls>
+      <source src="https://kodadot.mypinata.cloud/ipfs/bafybeifvmbjzgoxexwi2rxqsqnvecbxraowgpt2bzoj3ijnl3iye4xqlla" type="video/mp4">
+      Your browser does not support video
+    </video>
+  </div>
 </body>
 
 </html>
